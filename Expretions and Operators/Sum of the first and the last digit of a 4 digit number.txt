@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int a,b,d,e,f,g;
+  scanf("%d",&a);
+  b=a/1000;
+  d=a%1000;
+  e=d%100;
+  f=e%10;
+  g=b+f;
+  printf("%d",g);
+  return 0;
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+   float m,a,b,c;
+   scanf("%f %f %f",&a,&b,&c);
+   m=(a*b*c)/100;
+   printf("%0.2f",m);
+   return 0;
+}

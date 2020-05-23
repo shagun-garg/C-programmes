@@ -1,0 +1,10 @@
+#include<math.h>
+#include <stdio.h>
+int main()
+{  
+   float m,a,b,c;
+   scanf("%f %f %f",&a,&b,&c);
+   m=a*(pow((1+b/100),(c)));
+   printf("%0.1f",m);
+   return 0;
+}

@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{ 
+  float a;
+  long int b;
+  unsigned long int c;
+  scanf("%f %ld %lu",&a,&b,&c);
+  printf("%f %ld %lu",a,b,c);
+  return 0;
+}

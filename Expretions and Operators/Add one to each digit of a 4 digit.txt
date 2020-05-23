@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,m,e,f,g,h,i,j,k;
+   scanf("%d",&a);
+   b=a/1000+1;
+   c=a%1000;
+   d=c/100+1;
+   e=c%100;
+   f=e/10+1;
+   g=e%10+1;
+   h=b%10;
+   i=d%10;
+   j=f%10;
+   k=g%10;
+   m=(h*1000)+(i*100)+(j*10)+k;
+   printf("%d",m);
+   return 0;
+}
